@@ -15,6 +15,11 @@
 		E16005A72631F29900503F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16005A52631F29900503F06 /* LaunchScreen.storyboard */; };
 		E16005B22631F29900503F06 /* lifecounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16005B12631F29900503F06 /* lifecounterTests.swift */; };
 		E16005BD2631F29900503F06 /* lifecounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16005BC2631F29900503F06 /* lifecounterUITests.swift */; };
+		E1EFFC44263881B800541EF6 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFC43263881B800541EF6 /* PlayerModel.swift */; };
+		E1EFFC502638848C00541EF6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFC4F2638848C00541EF6 /* HistoryViewController.swift */; };
+		E1EFFC52263884D400541EF6 /* PlayerNameChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFC51263884D400541EF6 /* PlayerNameChangeView.swift */; };
+		E1EFFC57263889BF00541EF6 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFC55263889BF00541EF6 /* PlayerTableViewCell.swift */; };
+		E1EFFC58263889BF00541EF6 /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1EFFC56263889BF00541EF6 /* PlayerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		E16005B82631F29900503F06 /* lifecounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifecounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16005BC2631F29900503F06 /* lifecounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifecounterUITests.swift; sourceTree = "<group>"; };
 		E16005BE2631F29900503F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EFFC43263881B800541EF6 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		E1EFFC4F2638848C00541EF6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		E1EFFC51263884D400541EF6 /* PlayerNameChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNameChangeView.swift; sourceTree = "<group>"; };
+		E1EFFC55263889BF00541EF6 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		E1EFFC56263889BF00541EF6 /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				E160059A2631F29700503F06 /* AppDelegate.swift */,
 				E160059C2631F29700503F06 /* SceneDelegate.swift */,
 				E160059E2631F29700503F06 /* ViewController.swift */,
+				E1EFFC43263881B800541EF6 /* PlayerModel.swift */,
+				E1EFFC4F2638848C00541EF6 /* HistoryViewController.swift */,
+				E1EFFC51263884D400541EF6 /* PlayerNameChangeView.swift */,
+				E1EFFC55263889BF00541EF6 /* PlayerTableViewCell.swift */,
+				E1EFFC56263889BF00541EF6 /* PlayerTableViewCell.xib */,
 				E16005A02631F29700503F06 /* Main.storyboard */,
 				E16005A32631F29900503F06 /* Assets.xcassets */,
 				E16005A52631F29900503F06 /* LaunchScreen.storyboard */,
@@ -232,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16005A72631F29900503F06 /* LaunchScreen.storyboard in Resources */,
+				E1EFFC58263889BF00541EF6 /* PlayerTableViewCell.xib in Resources */,
 				E16005A42631F29900503F06 /* Assets.xcassets in Resources */,
 				E16005A22631F29700503F06 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EFFC57263889BF00541EF6 /* PlayerTableViewCell.swift in Sources */,
 				E160059F2631F29700503F06 /* ViewController.swift in Sources */,
 				E160059B2631F29700503F06 /* AppDelegate.swift in Sources */,
+				E1EFFC502638848C00541EF6 /* HistoryViewController.swift in Sources */,
+				E1EFFC44263881B800541EF6 /* PlayerModel.swift in Sources */,
 				E160059D2631F29700503F06 /* SceneDelegate.swift in Sources */,
+				E1EFFC52263884D400541EF6 /* PlayerNameChangeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
